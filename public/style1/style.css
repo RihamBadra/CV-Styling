@@ -1,1 +1,41 @@
-body{background:red}
+*{
+    margin:0;
+    padding:0;
+}
+
+header {
+    background: grey;
+    padding:1em 1em 2.5em 1em;
+}
+
+header div {
+    display:flex;
+    margin-left:15%;
+    color:red;
+}
+
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:2em 6em;
+}
+
+.content h3 {
+    border-bottom:1px solid grey;
+    padding:5px;
+}
+
+.content h3::before {
+    content: ".";
+    font-size:7em;
+    color:red;
+}
+
+#about p {
+    padding:1em;
+}
+
+.skills {
+    padding:1em;
+}
