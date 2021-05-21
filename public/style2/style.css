@@ -2,3 +2,25 @@
     margin:0;
     padding:0;
 }
+
+header div figure img {
+    position:absolute;
+    height:150px;
+    width:auto;
+    top: 2em;
+    right:10em;
+    transform: rotate(-20deg);
+}
+
+header div hgroup {
+    margin:2em;
+}
+
+header div hgroup h1 {
+    padding-bottom:1em;
+    border-bottom:1px solid grey;
+}
+
+header div hgroup h2 {
+    display:none;
+}
