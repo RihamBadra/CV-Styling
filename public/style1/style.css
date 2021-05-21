@@ -150,3 +150,37 @@ header div {
     margin:2em;
 }
 
+@media only screen and (max-width: 1200px) {
+    header div{
+        flex-direction: column;
+    }
+    
+    .content{
+        grid-template-columns:1fr;
+    }
+
+    .contacts{
+        margin-top:1em;
+    }
+    
+    #contact{
+        position:static;
+        margin: 2px;
+    }
+
+    #contact>h3 {
+        border-bottom: 1px grey solid;
+        padding-bottom:0;
+        display:block;
+    }
+
+    .contact-value{
+        padding-left:1em;
+        background-color:white;
+        color:black;
+    }
+
+    .contact-value a{
+        color:red;
+    }
+}
