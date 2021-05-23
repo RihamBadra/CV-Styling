@@ -188,3 +188,44 @@ header div hgroup h2 {
     margin-top:2.5em;
     margin-left:27em;
 }
+
+@media only screen and (max-width:600px) {
+    header div figure img {
+        display:none;
+    }
+
+    header div hgroup h1 {
+        margin-left:-1em;
+    }
+
+    .content h3 {
+        border-bottom:1px solid grey;
+    }
+
+    #about p {
+        width:90%;
+    }
+
+    #competencies {
+        grid-template-columns: 1fr;
+    }
+
+    #experiences,
+    #education,
+    #hobbies {
+        grid-template-columns: 1fr;
+    }
+
+    .skills,
+    #hobbies ul {
+        margin-top:1em;
+    }
+
+     .experience-type {
+        white-space:nowrap;
+     }
+
+     .experience-date {
+         float:right;
+     }
+}
